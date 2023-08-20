@@ -10,7 +10,6 @@ const Navbar = () => {
   return (
     <>
       <nav className="main-nav">
-        
         <div className="logo">
           <h2>
             <span>C</span>hitrakar
@@ -18,11 +17,11 @@ const Navbar = () => {
           </h2>
         </div>
 
-       
         <div
           className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
-          }>
+          }
+        >
           <ul>
             <li>
               <NavLink to="/">Home</NavLink>
@@ -39,11 +38,10 @@ const Navbar = () => {
           </ul>
         </div>
 
-        
         <div className="search">
           <ul className="search-desktop">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
           </ul>
 
           {/* hamburget menu start  */}
@@ -54,8 +52,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
-    
     </>
   );
 };
