@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import Hero from './components/Hero';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
       <Navbar />
+      <Hero/>
       <Footer/>
     </>
   );
