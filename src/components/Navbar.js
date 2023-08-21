@@ -40,8 +40,8 @@ const Navbar = () => {
 
         <div className="search">
           <ul className="search-desktop">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i className="fa-solid fa-magnifying-glass"></i>
+            <i className="fa-solid fa-cart-shopping"></i>
           </ul>
 
           {/* hamburget menu start  */}
